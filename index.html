@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aether Agents AI — Custom AI Agents for Your Business</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0a0f;
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #7c3aed, #3b82f6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        nav {
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 1.5rem 5%; border-bottom: 1px solid #1a1a2e;
+        }
+        nav .logo { font-size: 1.5rem; font-weight: 700; }
+        nav a { color: #a0a0b0; text-decoration: none; margin-left: 2rem; font-size: 0.95rem; }
+        nav a.cta { background: #7c3aed; color: white; padding: 0.6rem 1.4rem; border-radius: 6px; }
+        .hero {
+            text-align: center; padding: 6rem 5% 4rem;
+            max-width: 800px; margin: 0 auto;
+        }
+        .hero h1 { font-size: 3.2rem; font-weight: 800; margin-bottom: 1rem; line-height: 1.2; }
+        .hero p { font-size: 1.25rem; color: #8888a0; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto; }
+        .hero .cta-btn {
+            display: inline-block; background: linear-gradient(135deg, #7c3aed, #3b82f6);
+            color: white; padding: 1rem 2.5rem; border-radius: 8px; text-decoration: none;
+            font-size: 1.1rem; font-weight: 600;
+        }
+        .stats {
+            display: flex; justify-content: center; gap: 4rem; margin: 3rem 0;
+            flex-wrap: wrap;
+        }
+        .stat { text-align: center; }
+        .stat .number { font-size: 2.5rem; font-weight: 800; color: #7c3aed; }
+        .stat .label { font-size: 0.9rem; color: #8888a0; margin-top: 0.25rem; }
+        .section {
+            padding: 5rem 5%; max-width: 1100px; margin: 0 auto;
+        }
+        .section h2 { font-size: 2.2rem; margin-bottom: 2rem; text-align: center; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+        .card {
+            background: #12121f; border: 1px solid #1a1a2e; border-radius: 10px;
+            padding: 2rem;
+        }
+        .card h3 { font-size: 1.2rem; margin-bottom: 0.75rem; color: #c0c0d0; }
+        .card p { color: #8888a0; font-size: 0.95rem; }
+        .card .icon { font-size: 2rem; margin-bottom: 1rem; }
+        .promise-box {
+            background: linear-gradient(135deg, #0d0d1a, #12122a);
+            border: 1px solid #2a2a4a; border-radius: 12px; padding: 2.5rem;
+            text-align: center; max-width: 700px; margin: 3rem auto 0;
+        }
+        .promise-box h3 { color: #7c3aed; margin-bottom: 0.5rem; }
+        .promise-box p { color: #8888a0; }
+        footer {
+            text-align: center; padding: 3rem 5%; color: #555; font-size: 0.9rem;
+            border-top: 1px solid #1a1a2e; margin-top: 4rem;
+        }
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+            .stats { gap: 2rem; }
+            nav a { display: none; }
+            nav a.cta { display: inline-block; }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo"><span class="gradient-text">Aether Agents AI</span></div>
+        <div>
+            <a href="#what">What We Do</a>
+            <a href="#industries">Industries</a>
+            <a href="mailto:grantmitchellaetheragent@gmail.com" class="cta">Get Started</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h1>Your Business. <span class="gradient-text">An AI Agent That Knows It.</span></h1>
+        <p>We build custom AI agents for small and mid-size businesses. Handle leads, follow up with clients, and automate repetitive work — while you focus on what actually grows your business.</p>
+        <a href="mailto:grantmitchellaetheragent@gmail.com" class="cta-btn">Get Your AI Agent →</a>
+        <div class="stats">
+            <div class="stat"><div class="number">6.4</div><div class="label">Hours Saved Per Week Per Employee</div></div>
+            <div class="stat"><div class="number">60%</div><div class="label">More Productive Than Human-Only Teams</div></div>
+            <div class="stat"><div class="number">85%</div><div class="label">Of Small Businesses Expect Clear ROI</div></div>
+        </div>
+    </section>
+
+    <section class="section" id="what">
+        <h2>What Your AI Agent Does</h2>
+        <div class="grid">
+            <div class="card">
+                <div class="icon">📥</div>
+                <h3>Lead Qualification</h3>
+                <p>Your agent screens every inquiry — website forms, emails, calls — and qualifies them before they reach you. Only real prospects get through.</p>
+            </div>
+            <div class="card">
+                <div class="icon">📅</div>
+                <h3>Appointment Scheduling</h3>
+                <p>Handles the back-and-forth. Your agent finds open slots on your calendar, books them, and sends confirmations — automatically.</p>
+            </div>
+            <div class="card">
+                <div class="icon">📧</div>
+                <h3>Client Follow-Up</h3>
+                <p>Never let a lead go cold. Your agent follows up at the right intervals, keeps your pipeline warm, and flags hot opportunities for you.</p>
+            </div>
+            <div class="card">
+                <div class="icon">📄</div>
+                <h3>Document Processing</h3>
+                <p>Intake forms, applications, contracts — your agent pre-fills, organizes, and routes documents so you spend less time on paperwork.</p>
+            </div>
+            <div class="card">
+                <div class="icon">🔄</div>
+                <h3>Client Communication</h3>
+                <p>Answer common questions, provide case updates, send reminders — your agent handles routine communication 24/7 without adding headcount.</p>
+            </div>
+            <div class="card">
+                <div class="icon">📈</div>
+                <h3>Gets Better Every Week</h3>
+                <p>Unlike off-the-shelf tools, your agent learns from every interaction and improves continuously — adapting to your specific business over time.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="industries">
+        <h2>Industries We Serve</h2>
+        <div class="grid">
+            <div class="card"><div class="icon">⚖️</div><h3>Law Firms</h3><p>Client intake, case status updates, document prep, consultation scheduling.</p></div>
+            <div class="card"><div class="icon">🏠</div><h3>Real Estate</h3><p>Lead qualification, showing coordination, listing alerts, buyer follow-up.</p></div>
+            <div class="card"><div class="icon">🛡️</div><h3>Insurance Agencies</h3><p>Quote requests, renewal reminders, claims follow-up, policy questions.</p></div>
+            <div class="card"><div class="icon">📊</div><h3>Marketing Agencies</h3><p>Client reporting, campaign monitoring, content scheduling, lead routing.</p></div>
+            <div class="card"><div class="icon">🏭</div><h3>Manufacturing</h3><p>Order processing, supplier communication, inventory alerts, quote generation.</p></div>
+            <div class="card"><div class="icon">💼</div><h3>Professional Services</h3><p>Client onboarding, project updates, billing reminders, feedback collection.</p></div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>How It Works</h2>
+        <div style="display: flex; gap: 1.5rem; flex-wrap: wrap; justify-content: center;">
+            <div class="card" style="text-align: center; max-width: 220px;">
+                <div style="font-size: 2.5rem; font-weight: 800; color: #7c3aed;">1</div>
+                <h3>We Learn Your Business</h3>
+                <p>15-minute call. We understand your workflows, tools, and what takes up your time.</p>
+            </div>
+            <div class="card" style="text-align: center; max-width: 220px;">
+                <div style="font-size: 2.5rem; font-weight: 800; color: #7c3aed;">2</div>
+                <h3>We Build Your Agent</h3>
+                <p>Custom-built for your specific business. One-time $5,000 setup.</p>
+            </div>
+            <div class="card" style="text-align: center; max-width: 220px;">
+                <div style="font-size: 2.5rem; font-weight: 800; color: #7c3aed;">3</div>
+                <h3>Your Agent Goes to Work</h3>
+                <p>Fully managed. $1,500/month. You just use it — we handle everything else.</p>
+            </div>
+            <div class="card" style="text-align: center; max-width: 220px;">
+                <div style="font-size: 2.5rem; font-weight: 800; color: #7c3aed;">4</div>
+                <h3>It Gets Better</h3>
+                <p>Your agent improves every single week — learning your preferences, clients, and business.</p>
+            </div>
+        </div>
+        <div class="promise-box">
+            <h3>You Never Touch the Tech</h3>
+            <p>No models to configure. No tokens to manage. No infrastructure to maintain. We handle everything — setup, hosting, monitoring, and ongoing improvements. Your agent is a digital employee that arrives trained and keeps learning.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p><strong>Aether Agents AI</strong> — Oceanside, California</p>
+        <p style="margin-top: 0.5rem;">grantmitchellaetheragent@gmail.com</p>
+        <p style="margin-top: 1.5rem; color: #444;">© 2026 Aether Agents AI. Built in Oceanside, CA.</p>
+    </footer>
+</body>
+</html>
